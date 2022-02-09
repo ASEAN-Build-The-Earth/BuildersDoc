@@ -7,13 +7,14 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         googleAnalytics: {
-          trackingID: ''G-9PWWZ4W30K',
+          trackingID: 'G-9PWWZ4W30K',
           anonymizeIP: true,
         },
       },
     ],
   ],
 };
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
