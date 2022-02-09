@@ -1,6 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 module.exports = {
+  url: 'https://asean-build-the-earth.github.io',
+  baseUrl: '/',
+  projectName: 'BuildersDoc',
+  organizationName: 'ASEAN-Build-The-Earth',
+  trailingSlash: false,
+  
   
   presets: [
     [
@@ -21,9 +27,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ASEAN Builders Docs',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://asean-build-the-earth.github.io',
-  baseUrl: '/BuildersDoc/',
+  tagline: 'UwU',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
