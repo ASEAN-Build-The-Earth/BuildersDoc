@@ -32,8 +32,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'ASEAN BTE', // Usually your GitHub org/user name.
-  projectName: 'Builders Docs', // Usually your repo name.
+
 
   presets: [
     [
