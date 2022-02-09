@@ -1,6 +1,19 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+module.exports = {
+  
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        googleAnalytics: {
+          trackingID: ''G-9PWWZ4W30K',
+          anonymizeIP: true,
+        },
+      },
+    ],
+  ],
+};
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
