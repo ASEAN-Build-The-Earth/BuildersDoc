@@ -28,6 +28,9 @@ const config = {
 
   presets: [
     [
+      
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
       '@docusaurus/plugin-google-gtag',
       {
         googleAnalytics: {
@@ -35,9 +38,6 @@ const config = {
           anonymizeIP: false,
         },
       },
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -53,6 +53,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+
       }),
     ],
   ],
