@@ -47,15 +47,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-
-      }),
-      '@docusaurus/plugin-google-gtag',
-      {
         googleAnalytics: {
           trackingID: '3238730724',
           anonymizeIP: false,
         },
-      },
+      }),
     ],
   ],
 
