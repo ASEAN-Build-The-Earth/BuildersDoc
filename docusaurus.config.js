@@ -5,7 +5,7 @@ module.exports = {
   
   presets: [
     [
-      '@docusaurus/preset-classic',
+      '@docusaurus/plugin-google-analytic',
       {
         googleAnalytics: {
           trackingID: 'G-9PWWZ4W30K',
