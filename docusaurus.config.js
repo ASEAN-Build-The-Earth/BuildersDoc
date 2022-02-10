@@ -31,13 +31,7 @@ const config = {
       
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      '@docusaurus/plugin-google-gtag',
-      {
-        googleAnalytics: {
-          trackingID: '3238730724',
-          anonymizeIP: false,
-        },
-      },
+      
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -55,6 +49,13 @@ const config = {
         },
 
       }),
+      '@docusaurus/plugin-google-gtag',
+      {
+        googleAnalytics: {
+          trackingID: '3238730724',
+          anonymizeIP: false,
+        },
+      },
     ],
   ],
 
