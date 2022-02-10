@@ -3,13 +3,7 @@
 module.exports ={ 
   presets: [
     [
-      '@docusaurus/plugin-google-gtag',
-      {
-        googleAnalytics: {
-          trackingID: '3238730724',
-          anonymizeIP: false,
-        },
-      },
+
     ],
   ],
 };
@@ -34,8 +28,16 @@ const config = {
 
   presets: [
     [
+      '@docusaurus/plugin-google-gtag',
+      {
+        googleAnalytics: {
+          trackingID: '3238730724',
+          anonymizeIP: false,
+        },
+      },
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
+      
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
