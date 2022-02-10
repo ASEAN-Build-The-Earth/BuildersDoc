@@ -2,14 +2,9 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 module.exports = {
   
-  
   presets: [
     [
-<<<<<<< Updated upstream
-      '@docusaurus/plugin-google-analytic',
-=======
       '@docusaurus/plugin-google-gtag',
->>>>>>> Stashed changes
       {
         googleAnalytics: {
           trackingID: '3237217677',
