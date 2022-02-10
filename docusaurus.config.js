@@ -5,10 +5,14 @@ module.exports = {
   
   presets: [
     [
+<<<<<<< Updated upstream
       '@docusaurus/plugin-google-analytic',
+=======
+      '@docusaurus/plugin-google-gtag',
+>>>>>>> Stashed changes
       {
         googleAnalytics: {
-          trackingID: 'G-9PWWZ4W30K',
+          trackingID: '3237217677',
           anonymizeIP: true,
         },
       },
