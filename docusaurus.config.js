@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-module.exports = {
+module.exports = 
   presets: [
     [
       '@docusaurus/plugin-google-gtag',
